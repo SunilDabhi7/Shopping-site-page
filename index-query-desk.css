@@ -1,0 +1,175 @@
+@media only screen and (min-width: 768px) {
+    /* Navigation */
+    body {
+        margin-top: 100px;
+    }
+    #corousel {
+        border: none;
+    }
+    #container {
+        width: 80vw;
+        height: 60vh;
+        position: relative;
+        margin: auto;
+    }
+    .nav-left-item a img {
+        display: none;
+    }
+    .nav-left-item img {
+        width: 110px;
+        height: 60px;
+    }
+    .category {
+        display: block;
+        float: left;
+        margin-left: 20PX;
+        margin-top: 22px;
+        cursor: pointer;
+        font-size: .8rem;
+    }
+    .nav-right-item {
+        margin-right: 20px;
+        margin-top: 22px;
+    }
+    #search-container {
+        position: absolute;
+        top: 30px;
+        right: 95px;
+        z-index: 2;
+        background-color: rgb(123, 147, 224);
+    }
+    #search-container:target {
+        display: flex;
+        width: 300px;
+        height: auto;
+    }
+    #icon-hide {
+        display: none;
+    }
+    #search {
+        background-color: transparent;
+    }
+
+    /* Category */
+    #category {
+        display: none;
+    }
+
+    /* Top brands */
+    .brand-names {
+        width: 30%;
+        height: 380px;
+    }
+
+     /* Best buy */
+     .bst-by-lst {
+        width: 49%;
+        margin-bottom: 6px;
+        height: 360px;
+    }
+    /* Trending */
+    .trend-list {
+        width: 32%;
+        height: 300px;
+    }
+    .trend-list-sports {
+        width: 32%;
+        height: 370px;
+    }
+    .trend-list-footwear {
+        width: 32%;
+        height: 370px;
+    }
+
+    /* Hover type list */
+    ul li {
+        cursor: pointer;
+    }
+    .men-list {
+        transition: .7s ease;
+    }
+    .men-list li:hover {
+        color: crimson;
+    }
+    #hover-type-list {
+        width: 80%;
+        height: 0;
+        overflow: scroll;
+        margin: 0 125px;
+        position: absolute;
+        top: 88px;
+        background-color: rgb(247, 237, 222);
+        display: flex;
+        justify-content: space-evenly;
+        overflow: hidden;
+        transition: .5s ease-in;
+    }
+    .column-list {
+        display: flex;
+        width: auto;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .column-list h4 {
+        color: crimson;
+    }
+    .women-list {
+        transition: .7s ease;
+    }
+    .women-list li:hover {
+        color: darkmagenta;
+    }
+    #hover-type-list-2 {
+        width: 80%;
+        height: 0;
+        overflow: scroll;
+        margin: 0 125px;
+        position: absolute;
+        top: 88px;
+        background-color: rgb(247, 237, 222);
+        display: flex;
+        justify-content: space-evenly;
+        overflow: hidden;
+        transition: .5s ease-in;
+    }
+    .column-list-2 {
+        display: flex;
+        width: auto;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+    .column-list-2 h4 {
+        color: darkmagenta;
+    }
+
+
+    
+
+
+    /* Often used classes */
+    .bold-font {
+        font-weight: bold;
+    }
+    .top-margin {
+        margin-top: 30px;
+    }
+    .left-margin {
+        margin-left: 37px;
+    }
+    .header-style-1 {
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .color-1 {
+        color: gray;
+    }
+    .btm-margin {
+        margin-bottom: 5px;
+    }
+    .h-color-1 {
+        color: crimson;
+    }
+    .btm-border {
+        border-bottom: 1px solid gray;
+    }
+  }

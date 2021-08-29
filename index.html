@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Lifestyle Store</title>
+	<link rel="shortcut icon" href="images/primary/logo.png" type="image/x-icon">
+	<meta name="viewport" content="width=device-width initil-scale=1.0">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style-primary.css">
+	<link rel="stylesheet" type="text/css" href="index-query-desk.css">
+</head>
+<body>
+	<div id="nav-container">
+		<div id="nav">
+			<div id="nav-left">
+				<div class="nav-left-item">
+					<a href="#side-bar"><img src="https://img-premium.flaticon.com/png/512/130/130918.png?token=exp=1621861109~hmac=db5fb7866ca59e07573b33702e8c29d1" alt=""></a>
+				</div>
+				<div class="nav-left-item">
+					<img src="images/primary/logo.png">
+				</div>
+				<div class="category bold-font" id="men-list">
+					<a href="#" style="text-decoration:none;color:inherit;"> MEN </a>
+				</div>
+				<div class="category bold-font" id="women-list">
+					<a href="#" style="text-decoration:none;color:inherit;"> WOMEN </a>
+				</div>
+				<div class="category bold-font">
+					KIDS
+				</div>
+				<div class="category bold-font">
+					BEAUTY
+				</div>
+			</div>
+			<div id="nav-right">
+				<div class="nav-right-item">
+					<a href="#search-container"><img src="https://image.flaticon.com/icons/png/512/622/622669.png" alt=""></a>
+				</div>
+				<div class="nav-right-item">
+					<a href=""><img src="https://image.flaticon.com/icons/png/512/666/666201.png" alt=""></a>
+				</div>
+				<div class="nav-right-item">
+					<a href=""><img src="https://image.flaticon.com/icons/png/512/2838/2838838.png" alt=""></a>
+				</div>
+			</div>
+		</div>
+		<div id="search-container">
+			<div>
+				<a href="#" style="margin-left:5px;"><span><i class="fas fa-microphone"></i></span></a>
+			</div>
+			<div>
+				<form>
+					<input type="text" id="search" placeholder="Search">
+				</form>
+			</div>
+			<div>
+				<a href="#" style="margin-right:5px;"><span><i class="fas fa-search"></i></span></a>
+			</div>
+		</div>
+	</div>
+	<div id="side-bar">
+		<ul id="nav1" class="ul-1">
+			<li><img src="images/other/discount.jpg" alt=""></li>
+			<li class="bold-font"><a href="#" style="text-decoration:none;color:inherit;margin-left:8px;">X</a></li>
+			<li class="bold-font" onclick="show1()"><span>Men</span>
+				<ul class="nestedList">
+					<li><span>Topwear</span></li>
+					<li><span>Indian & Festive Wear</span></li>
+					<li><span>Bottomwear</span></li>
+					<li><span>Footwear</span></li>
+					<li><span>Watches</span></li>
+					<li><span>Fashion Accessories</span></li>
+					<li><span>Gadgets</span></li>
+				</ul>
+			</li>
+			<li class="bold-font" onclick="show2()"><span>Women</span>
+				<ul class="nestedList">
+					<li><span>Topwear</span></li>
+					<li><span>Indian & Festive Wear</span></li>
+					<li><span>Bottomwear</span></li>
+					<li><span>Footwear</span></li>
+					<li><span>Watches</span></li>
+					<li><span>Fashion Accessories</span></li>
+					<li><span>Gadgets</span></li>
+				</ul>
+			</li>
+			<li class="bold-font"><span>Kids</span></li>
+			<li  class="bold-font" style="border-bottom: 0.1rem solid rgb(104, 104, 104);"><span>Beauty</span></li>
+			<li><span>Gift Cards</span></li>
+			<li><span>Contact Us</span></li>
+			<li><span>FAQs</span></li>
+			<li><span>Legal</span></li>
+		</ul>
+	</div>
+	<div id="category" class="top-margin">
+		<div class="type">
+			<div>
+				<img src="images/category/img-1.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Men</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-2.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Women</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-3.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Home</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-4.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Kids</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-5.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Beauty</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-6.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Footwear</div>
+		</div>
+		<div class="type">
+			<div>
+				<img src="images/category/img-7.jpg" alt="">
+			</div>
+			<div style="text-align: center;">Gadgets</div>
+		</div>
+	</div>
+	<div id="corousel">
+		<div id="container" style="margin-top:10px;">
+			<div onclick="prev()" id="pre"><img src="images/slider/less-than-symbol.png" alt=""></div>
+			<img src="images/slider/poster-1.jpg" alt="" id="slider">
+			<div onclick="next()" id="nxt"><img src="images/slider/greater-than-symbol.png" alt=""></div>
+		</div>
+		<div style="text-align:center;margin-top:-20px;z-index:2;">
+			<span class="dot active"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+			<span class="dot"></span> 
+		</div>
+	</div>	
+	<div class="top-margin">
+		<span class="left-margin header-style-1">TOP BRANDS</span>
+		<div class="top-brands">
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-1.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-2.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-3.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-4.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-5.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-6.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-7.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-8.jpg" alt="brand"></a>
+			</div>
+			<div class="brand-names">
+				<a href=""><img src="images/brands/img-9.jpg" alt="brand"></a>
+			</div>
+		</div>
+	</div>
+	<div class="margin-top">
+		<span class="left-margin header-style-1">BEST BUY</span>
+		<div id="best-buy">
+			<div class="bst-by-lst">
+				<a href=""><img src="images/best-buy/img-1.jpg" alt="brand"></a>
+			</div>
+			<div class="bst-by-lst">
+				<a href=""><img src="images/best-buy/img-2.jpg" alt="brand"></a>
+			</div>
+			<div class="bst-by-lst">
+				<a href=""><img src="images/best-buy/img-3.jpg" alt="brand"></a>
+			</div>
+			<div class="bst-by-lst">
+				<a href=""><img src="images/best-buy/img-4.jpg" alt="brand"></a>
+			</div>
+		</div>
+	</div>
+	<div class="top-margin">
+		<span class="left-margin header-style-1">TRENDING IN INDIAN WEAR</span>
+		<div class="trend">
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-1.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-2.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-3.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-4.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-5.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list">
+				<a href=""><img src="images/trend-indian/img-6.jpg" alt="brand"></a>
+			</div>
+		</div>
+	</div>
+	<div class="top-margin">
+		<span class="left-margin header-style-1">TRENDING IN SPORTS WEAR</span>
+		<div class="trend">
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-1.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-2.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-3.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-4.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-5.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-sports">
+				<a href=""><img src="images/trend-sports/img-6.jpg" alt="brand"></a>
+			</div>
+		</div>
+	</div>
+	<div class="top-margin">
+		<span class="left-margin header-style-1">TRENDING IN FOOTWEAR</span>
+		<div class="trend">
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-1.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-2.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-3.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-4.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-5.jpg" alt="brand"></a>
+			</div>
+			<div class="trend-list-footwear">
+				<a href=""><img src="images/trend-footwear/img-6.jpg" alt="brand"></a>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<br>
+		<span class="left-margin" id="ft-header">KEEP IN TOUCH</span>
+		<div id="social">
+			<div><i class="fab fa-facebook-square"></i></div>
+			<div><i class="fab fa-twitter-square"></i></div>
+			<div><i class="fab fa-instagram"></i></div>
+			<div><i class="fab fa-youtube"></i></div>
+		</div>
+		<br>
+		<span class="left-margin">USEFUL LINKS</span>
+		<div id="useful-links">
+			<a href="" style="text-decoration:none;"><span>Contact Us</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>FAQ</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>T&C</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>Terms Of Use</span></a>&nbsp;<span class="color-1">&#124;</span> <br>
+			<a href="" style="text-decoration:none;"><span>Track Orders</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>Shipping</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>Cancellation</span></a>&nbsp;<span class="color-1">&#124;</span> <br>
+			<a href="" style="text-decoration:none;"><span>Privacy Policy</span></a>&nbsp;<span class="color-1">&#124;</span>
+			<a href="" style="text-decoration:none;"><span>Site Map</span></a>&nbsp;<span class="color-1">&#124;</span>
+		</div>
+	</div>
+	<div id="hover-type-list">
+		<div style="position:absolute;top:0;left:0;font-size:1.5rem;">
+			<a href="" style="text-decoration:none;" id="close-men-list">X</a>
+		</div>
+		<div class="column-list">
+			<div class="btm-border">
+				<h4 class="btm-margin">Topwear</h4>
+				<ul class="men-list">
+					<li>T-Shirts</li>
+					<li>Casual Shirts</li>
+					<li>Formal Shirts</li>
+					<li>Sweatshirts</li>
+					<li>Sweaters</li>
+					<li>Jackets</li>
+					<li>Blazers & Coats</li>
+					<li>Suits</li>
+					<li>Rain Jackets</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Indian & Festive Wear</h4>
+				<ul class="men-list">
+					<li>Kurtas</li>
+					<li>Sherwanis</li>
+					<li>Dhotis</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column-list">
+			<div class="btm-border">
+				<h4 class="btm-margin">Bottomwear</h4>
+				<ul class="men-list">
+					<li>Jeans</li>
+					<li>Casual Trousers</li>
+					<li>Formal Trousers</li>
+					<li>Shorts</li>
+					<li>Track Pants & Joggers</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Innerwear & Sleepwear</h4>
+				<ul class="men-list">
+					<li>Briefs & Trunks</li>
+					<li>Boxers</li>
+					<li>Vests</li>
+					<li>Sleepwear</li>
+					<li>Thermals</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column-list">
+			<div class="btm-border">
+				<h4 class="btm-margin">Footwear</h4>
+				<ul class="men-list">
+					<li>Casual Shoes</li>
+					<li>Sports Shoes</li>
+					<li>Formal Shoes</li>
+					<li>Sneakers</li>
+					<li>Sandals & Floaters</li>
+					<li>Flip Flops</li>
+					<li>Socks</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Personal Care & Grooming</h4>
+				<h4 class="btm-margin">Sunglasses & Frames</h4>
+				<h4 class="btm-margin">Watches</h4>		
+			</div>
+		</div>
+		<div class="column-list">
+			<div class="btm-border">
+				<h4 class="btm-margin">Sports & Active Wear</h4>
+				<ul class="men-list">
+					<li>Sports Shoes</li>
+					<li>Sports Sandals</li>
+					<li>Active T-Shirts</li>
+					<li>Track Pants & Shorts</li>
+					<li>Track Suits</li>
+					<li>Jackets & Sweatshirts</li>
+					<li>Sports Accessories</li>
+					<li>Swimwear</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Gadgets</h4>
+				<ul class="men-list">
+					<li>Smart Wearables</li>
+					<li>Fitness Gadgets</li>
+					<li>Headphones</li>
+					<li>Speakers</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column-list">
+			<div class="btm-border">
+				<h4 class="btm-margin">Footwear</h4>
+				<ul class="men-list">
+					<li>Wallets</li>
+					<li>Belts</li>
+					<li>Perfumes & Body Mists</li>
+					<li>Trimmers</li>
+					<li>Deodorents</li>
+					<li>Accessories Gift Sets</li>
+					<li>Caps 7 hats</li>
+					<li>Mufflers, Scarves & Gloves</li>
+					<li>Phone Cases</li>
+					<li>Rings & Wristwear</li>
+					<li>Helmets</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin btm-border">Bags & Backpacks</h4>
+				<h4 class="btm-margin">Luggages & Trolleys</h4>
+			</div>
+		</div>
+	</div>
+	<div id="hover-type-list-2">
+		<div style="position:absolute;top:0;left:0;font-size:1.5rem;">
+			<a href="" style="text-decoration:none;" id="close-women-list">X</a>
+		</div>
+		<div class="column-list-2">
+			<div class="btm-border">
+				<h4 class="btm-margin">Indian & Fusion Wear</h4>
+				<ul class="women-list">
+					<li>Kurtas & Suits</li>
+					<li>Ethnic Wear</li>
+					<li>Leggings, Salwars & Churidars</li>
+					<li>Skirts & Palazzos</li>
+					<li>Sarees</li>
+					<li>Dress Materials</li>
+					<li>Lehenga Cholis</li>
+					<li>Dupattas & Shawls</li>
+					<li>Jackets</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin btm-border">Belts, Scarves & More</h4>
+				<h4 class="btm-margin">Watches & Wearables</h4>
+			</div>
+		</div>
+		<div class="column-list-2">
+			<div class="btm-border">
+				<h4 class="btm-margin">Western Wear</h4>
+				<ul class="women-list">
+					<li>Dresses</li>
+					<li>Jumpsuits</li>
+					<li>Jeans</li>
+					<li>Trousers & Capris</li>
+					<li>Shorts & Skirts</li>
+					<li>Shrugs</li>
+					<li>Sweaters & Sweatshirts</li>
+					<li>Jackets & Coats</li>
+					<li>Blazzers & Waistcoats</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin btm-border">Plus Size</h4>
+				<h4 class="btm-margin">Sunglasses & Frames</h4>
+			</div>
+		</div>
+		<div class="column-list-2">
+			<div class="btm-border">
+				<h4 class="btm-margin">Footwear</h4>
+				<ul class="women-list">
+					<li>Flats</li>
+					<li>Casual Shoes</li>
+					<li>Heels</li>
+					<li>Boots</li>
+					<li>Sports Shoes & Floaters</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Sports & Active wears</h4>
+				<ul class="women-list">
+					<li>Clothing</li>
+					<li>Footwear</li>
+					<li>Sports Accessories</li>
+					<li>Sports Equipments</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column-list-2">
+			<div class="btm-border">
+				<h4 class="btm-margin">Lingerie & Sleepwear</h4>
+				<ul class="women-list">
+					<li>Bra</li>
+					<li>Briefs</li>
+					<li>Shapewear</li>
+					<li>Sleepwear & Loungewear</li>
+					<li>Sweemwear</li>
+					<li>Camisoles & Thermals</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin">Beauty & Personal Care</h4>
+				<ul class="women-list">
+					<li>Makeup</li>
+					<li>Skincare</li>
+					<li>Premium Beauty</li>
+					<li>Lipsticks</li>
+					<li>Fragrances</li>
+				</ul>
+			</div>
+		</div>
+		<div class="column-list-2">
+			<div class="btm-border">
+				<h4 class="btm-margin">Gadgets</h4>
+				<ul class="women-list">
+					<li>Smart Wearables</li>
+					<li>Fitness Gadgets</li>
+					<li>Headphones</li>
+					<li>Speakers</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;" class="btm-border">
+				<h4 class="btm-margin">Jewallery</h4>
+				<ul class="women-list">
+					<li>Fashion Jewallery</li>
+					<li>Fine Jewallery</li>
+					<li>Earrings</li>
+				</ul>
+			</div>
+			<div style="margin-top: 15px;">
+				<h4 class="btm-margin btm-border">Backpacks</h4>
+				<h4 class="btm-margin btm-border">Handbags, Bags & Wallets</h4>
+				<h4 class="btm-margin">Luggages & Trolleys</h4>
+			</div>
+		</div>
+	</div>
+	<script src="slider.js"></script>
+</body>
+</html>
